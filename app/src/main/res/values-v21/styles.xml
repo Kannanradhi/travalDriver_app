@@ -1,0 +1,109 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!--<style name="CircularBarPagerStyle">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="progress_arc_max">100</item>
+        <item name="arc_progress">0</item>
+        <item name="progress_arc_clockwise_outline_width">0.75dp</item>
+        <item name="progress_arc_counter_clockwise_outline_width">0.75dp</item>
+        <item name="progress_arc_clockwise_width">8dp</item>
+        <item name="progress_arc_counter_clockwise_width">8dp</item>
+
+        <item name="progress_start_line_enabled">true</item>
+        <item name="progress_pager_on_click_enabled">true</item>
+        <item name="progress_pager_fill_circle_color">#00000000</item>
+    </style>-->
+
+    <style name="CustomActionBarTheme"
+        parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+    <style name="Animations_photo_Picker" parent="Theme.AppCompat.Light">
+        <item name="@android:windowEnterAnimation">@anim/pull_in_left</item>
+        <item name="@android:windowExitAnimation">@anim/push_out_right</item>
+    </style>
+    <!-- ActionBar styles -->
+    <style name="MyActionBar"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@android:color/holo_blue_bright</item>
+    </style>
+    <style name="DialogAnimation2" >
+        <item name="android:windowEnterAnimation">@anim/slideup</item>
+        <item name="android:windowExitAnimation">@anim/pull_in_left</item>
+    </style>
+
+    <style name="DialogTheme">
+        <item name="android:windowEnterAnimation">@anim/slideup</item>
+        <item name="android:windowExitAnimation">@anim/slidedown</item>
+    </style>
+
+    <style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/black_color</item>
+        <item name="colorControlNormal">@color/app_color_transperent1</item>
+        <item name="colorControlActivated">@color/app_color</item>
+        <item name="colorControlHighlight">@color/app_color</item>
+        <item name="android:statusBarColor">@color/app_color</item>
+    </style>
+    <style name="TextAppearance.App.Edittext.Registration" parent="@android:style/Widget.EditText">
+        <item name="android:paddingBottom">@dimen/_10sdp</item>
+        <item name="android:paddingTop">@dimen/_15sdp</item>
+
+    </style>
+
+    <style name="TextAppearance.App.TextInputLayout.Registration" parent="@android:style/TextAppearance">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/registration_hint</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="colorAccent">@color/registration_hint</item>
+        <item name="colorControlNormal">@color/registration_hint</item>
+        <item name="colorControlActivated">@color/app_color</item>
+        <item name="android:paddingLeft">@dimen/_5sdp</item>
+        <item name="android:paddingRight">@dimen/_5sdp</item>
+
+
+    </style>
+
+    <style name="TextAppearance.App.TextView.Registration.Next" parent="@android:style/TextAppearance">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/registration_hint</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/app_color</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:paddingTop">@dimen/_5sdp</item>
+        <item name="android:paddingBottom">@dimen/_5sdp</item>
+        <item name="android:paddingRight">@dimen/_20sdp</item>
+        <item name="android:paddingLeft">@dimen/_23sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_23sdp</item>
+        <item name="android:layout_marginTop">@dimen/_30sdp</item>
+        <item name="android:elevation">@dimen/_5sdp</item>
+
+
+    </style>
+
+    <style name="Theme.switch" parent="Theme.AppCompat.Light">
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/app_color</item>
+        <item name="colorButtonNormal">@color/app_color</item>
+        <item name="colorControlActivated">@color/app_color</item>
+
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/app_color</item>
+
+        <!-- colorAccent is used as the default value for colorControlActivated,
+             which is used to tint widgets -->
+        <item name="colorAccent">@color/app_color</item>
+
+        <!-- You can also set colorControlNormal, colorControlActivated
+             colorControlHighlight, and colorSwitchThumbNormal. -->
+
+    </style>
+
+
+</resources>

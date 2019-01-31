@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="blue">#6699FF</color>
+    <color name="register_btn_color">#CC00FF</color>
+    <color name="light_gray">#e0e0e0</color>
+    <color name="light_blue">#00B0FF</color>
+    <color name="progress_ripplecolor">#cc0000</color>
+
+    <color name="app_color">#e84c3d</color>
+    <color name="app_color_transperent1">#aae84c3d</color>
+
+    <color name="app_color_button">#e84c3d</color>
+
+    <color name="pushnotification_custom_theme_color">#66ffffff</color>
+
+    <color name="white_color">#FFFFFF</color>
+    <color name="black_color">#000000</color>
+    <color name="grey_color">#4e4e4e</color>
+
+    <color name="chat_header_bg_gray">#a9e0e0e0</color>
+    <color name="chat_header_shadow_bg_gray">#a9c7bebe</color>
+    <color name="chat_bg_right_color">#e84c3d</color>
+    <color name="chat_notify_dot_bg">#ee5eea21</color>
+    <color name="chat_header_text">#000000</color>
+    <color name="chat_edit_text">#000000</color>
+    <color name="chat_time_text">#ffd0d0d0</color>
+    <color name="chat_list_right_text">#ffffff</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="registration_hint">#9c9999</color>
+    <color name="toll_hint">#ffd0d0d0</color>
+
+    <color name="spinner_line_color">#9c9999</color>
+    <color name="spinner_arrow_color">#9c9999</color>
+    <color name="spinner_hint_color">#9c9999</color>
+    <color name="spinner_text_color">#000000</color>
+    <color name="spinner_popup_bg_color">#ffffff</color>
+    <color name="spinner_floatlabel_color">#e84c3d</color>
+    <color name="spinner_highlight_color">#e84c3d</color>
+    <color name="reg_image_upload_text">#4e4e4e</color>
+
+
+
+
+</resources>

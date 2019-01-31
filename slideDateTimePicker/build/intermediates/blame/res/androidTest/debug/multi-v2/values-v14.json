@@ -1,0 +1,74 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Current Project\\CabilyDriver V7\\slideDateTimePicker\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v14\\values-v14.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\88b3a5949be7817673866770645807a3\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "4,11,12,13,19,27,28,29,32,33",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "290,796,867,950,1360,2007,2127,2190,2344,2407",
+                        "endLines": "8,11,12,18,24,27,28,31,32,33",
+                        "endColumns": "12,70,82,12,12,119,62,12,62,131",
+                        "endOffsets": "561,862,945,1355,1777,2122,2185,2339,2402,2534"
+                    },
+                    "to": {
+                        "startLines": "5,10,11,12,18,24,25,26,29,30",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "206,482,553,636,1046,1468,1588,1651,1805,1868",
+                        "endLines": "9,10,11,17,23,24,25,28,29,30",
+                        "endColumns": "12,70,82,12,12,119,62,12,62,131",
+                        "endOffsets": "477,548,631,1041,1463,1583,1646,1800,1863,1995"
+                    }
+                },
+                {
+                    "source": "D:\\Current Project\\CabilyDriver V7\\slideDateTimePicker\\build\\intermediates\\packaged_res\\debug\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "201"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Current Project\\CabilyDriver V7\\slideDateTimePicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-v14\\values-v14.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\88b3a5949be7817673866770645807a3\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "4,11,12,13,19,27,28,29,32,33",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "290,796,867,950,1360,2007,2127,2190,2344,2407",
+                        "endLines": "8,11,12,18,24,27,28,31,32,33",
+                        "endColumns": "12,70,82,12,12,119,62,12,62,131",
+                        "endOffsets": "561,862,945,1355,1777,2122,2185,2339,2402,2534"
+                    },
+                    "to": {
+                        "startLines": "5,10,11,12,18,24,25,26,29,30",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "206,482,553,636,1046,1468,1588,1651,1805,1868",
+                        "endLines": "9,10,11,17,23,24,25,28,29,30",
+                        "endColumns": "12,70,82,12,12,119,62,12,62,131",
+                        "endOffsets": "477,548,631,1041,1463,1583,1646,1800,1863,1995"
+                    }
+                },
+                {
+                    "source": "D:\\Current Project\\CabilyDriver V7\\slideDateTimePicker\\build\\intermediates\\packaged_res\\debug\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "201"
+                    }
+                }
+            ]
+        }
+    ]
+}

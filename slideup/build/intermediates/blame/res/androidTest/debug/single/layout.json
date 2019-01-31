@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "D:\\Current Project\\CabilyDriver V7\\slideup\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.2.aar\\ccc1bf37fd79bbf42e3954da829c0546\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\Current Project\\CabilyDriver V7\\slideup\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.0.2.aar\\36c697d46e6fd3eb25aa03fb3ce091ff\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "D:\\Current Project\\CabilyDriver V7\\slideup\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.0.2.aar\\36c697d46e6fd3eb25aa03fb3ce091ff\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\Current Project\\CabilyDriver V7\\slideup\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.2.aar\\ccc1bf37fd79bbf42e3954da829c0546\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\Current Project\\CabilyDriver V7\\slideup\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.0.2.aar\\36c697d46e6fd3eb25aa03fb3ce091ff\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "D:\\Current Project\\CabilyDriver V7\\slideup\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.2.aar\\ccc1bf37fd79bbf42e3954da829c0546\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\Current Project\\CabilyDriver V7\\slideup\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.0.2.aar\\36c697d46e6fd3eb25aa03fb3ce091ff\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\Current Project\\CabilyDriver V7\\slideup\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.2.aar\\ccc1bf37fd79bbf42e3954da829c0546\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\Current Project\\CabilyDriver V7\\slideup\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.0.2.aar\\36c697d46e6fd3eb25aa03fb3ce091ff\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\Current Project\\CabilyDriver V7\\slideup\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.0.2.aar\\36c697d46e6fd3eb25aa03fb3ce091ff\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\Current Project\\CabilyDriver V7\\slideup\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.2.aar\\ccc1bf37fd79bbf42e3954da829c0546\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\Current Project\\CabilyDriver V7\\slideup\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.0.2.aar\\36c697d46e6fd3eb25aa03fb3ce091ff\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "D:\\Current Project\\CabilyDriver V7\\slideup\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.0.2.aar\\36c697d46e6fd3eb25aa03fb3ce091ff\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "D:\\Current Project\\CabilyDriver V7\\slideup\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.2.aar\\ccc1bf37fd79bbf42e3954da829c0546\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\Current Project\\CabilyDriver V7\\slideup\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.0.2.aar\\36c697d46e6fd3eb25aa03fb3ce091ff\\res\\layout\\notification_media_cancel_action.xml"
+    }
+]

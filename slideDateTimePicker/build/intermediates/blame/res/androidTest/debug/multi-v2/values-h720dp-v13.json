@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Current Project\\CabilyDriver V7\\slideDateTimePicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-h720dp-v13\\values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\88b3a5949be7817673866770645807a3\\res\\values-h720dp\\values-h720dp.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "283",
+                        "endColumns": "66",
+                        "endOffsets": "345"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Current Project\\CabilyDriver V7\\slideDateTimePicker\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\88b3a5949be7817673866770645807a3\\res\\values-h720dp\\values-h720dp.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "283",
+                        "endColumns": "66",
+                        "endOffsets": "345"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

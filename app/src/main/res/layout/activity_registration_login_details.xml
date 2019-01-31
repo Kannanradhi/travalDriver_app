@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/header_registration"
+            layout="@layout/registration_header_layout" />
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+            <RelativeLayout
+                android:id="@+id/main_Rl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.github.siyamed.shapeimageview.CircularImageView
+                    android:id="@+id/registration_login_iv_profile"
+                    android:layout_width="@dimen/_120sdp"
+                    android:layout_height="@dimen/_120sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:src="@drawable/applogo"
+                    app:siBorderColor="@color/app_color"
+                    app:siBorderWidth="1dp" />
+
+                <ImageView
+                    android:id="@+id/registration_login_iv_add_profile"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_alignBottom="@+id/registration_login_iv_profile"
+                    android:layout_alignEnd="@+id/registration_login_iv_profile"
+                    android:layout_alignRight="@+id/registration_login_iv_profile"
+                    android:src="@drawable/ic_registration_add_profile_plus_normal" />
+
+                <LinearLayout
+                    android:id="@+id/login_details_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/registration_login_iv_profile"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:orientation="vertical">
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/registration_login_layout_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="@string/login_details_name_label"
+                        android:theme="@style/TextAppearance.App.TextInputLayout.Registration">
+
+                        <com.cabily.cabilydriver.widgets.CustomEdittext
+                            android:id="@+id/registration_login_name_editText"
+                            style="@style/TextAppearance.App.Edittext.Registration"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:imeOptions="actionNext"
+                            android:inputType="textPersonName" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/registration_login_layout_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="@string/login_details_email_label"
+                        android:theme="@style/TextAppearance.App.TextInputLayout.Registration">
+
+                        <com.cabily.cabilydriver.widgets.CustomEdittext
+                            android:id="@+id/registration_login_email_editText"
+                            style="@style/TextAppearance.App.Edittext.Registration"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:imeOptions="actionNext"
+                            android:inputType="textEmailAddress" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/registration_login_layout_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="@string/login_details_password_label"
+                        android:theme="@style/TextAppearance.App.TextInputLayout.Registration">
+
+                        <com.cabily.cabilydriver.widgets.CustomEdittext
+                            android:id="@+id/registration_login_password_editText"
+                            style="@style/TextAppearance.App.Edittext.Registration"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:imeOptions="actionNext" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/registration_login_layout_confrm_passwrd"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="@string/login_details_confirm_password_label"
+                        android:theme="@style/TextAppearance.App.TextInputLayout.Registration">
+
+                        <com.cabily.cabilydriver.widgets.CustomEdittext
+                            android:id="@+id/registration_login_confrm_passwrd_editText"
+                            style="@style/TextAppearance.App.Edittext.Registration"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:imeOptions="actionDone" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+
+                </LinearLayout>
+
+                <com.cabily.cabilydriver.widgets.CustomTextView
+                    android:id="@+id/registration_login_details_next_tv"
+                    style="@style/TextAppearance.App.TextView.Registration.Next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/login_details_layout"
+                    android:text="@string/registration_next_label" />
+            </RelativeLayout>
+
+
+        </android.support.v4.widget.NestedScrollView>
+
+    </android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.cabily.cabilydriver">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+
+    <application
+        android:name=".Utils.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/applogo"
+        android:keepScreenOn="true"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="net.hockeyapp.android.UpdateActivity" />
+        <!-- Auto Connect Internet Permission -->
+        <receiver android:name=".Utils.NetworkChangeReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Goolge API Key -->
+        <!--venki dummy key-->
+            <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBgBlgKQKMqFuGFJRYRfnUNlgMhGcW4HlQ" />
+
+        <!--cabily original key-->
+      <!--  <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDO4waxjY5DwFuqD4W7zeUDmcYjrMkHor4" />-->
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.0.2"
+            tools:replace="android:value" />
+        <!--
+        <activity
+            android:name=".Registraion"
+            android:label="@string/title_activity_registraion"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".NavigationDrawer"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait" />
+        -->
+        <activity
+            android:name=".HomePage"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".NavigationDrawerNew"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".LoginPage"
+            android:label="@string/title_activity_signin"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".DriverMapActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <!--
+             <activity
+             android:name="com.cabily.cabilydriver.DropLocationSelect"
+             android:screenOrientation="portrait"
+             android:theme="@style/NoActionBar_Theme"
+             android:windowSoftInputMode="stateHidden|adjustResize"/>
+        -->
+
+        <activity
+            android:name=".PaymentDetailsList"
+            android:label="@string/title_activity_signin"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".TripSummaryDetail"
+            android:label="@string/title_activity_signin"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/title_activity_signin"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".CancelTrip"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".ArrivedTrip"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".BeginTrip"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".EndTrip"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".DriverAlertActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".UserInfo"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".RatingsPage"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".PaymentPage"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".OtpPage"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".TripPage"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".PushNotificationAlert"
+            android:screenOrientation="portrait"
+            android:theme="@style/PushNotificaton_NoActionBar_Transparent_Theme" />
+        <activity
+            android:name=".GooglePlaceSearch"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".EndTrip_EnterDetails"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".ForgotPassword"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".RegisterPageWebview"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".LoadingPage"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".FeedBackPage"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".LocationSearch"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".MapClas"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".AdsPage"
+            android:screenOrientation="portrait"
+            android:theme="@style/PushNotificaton_NoActionBar_Transparent_Theme" />
+        <activity
+            android:name=".NewTripAlert"
+            android:screenOrientation="portrait"
+            android:theme="@style/PushNotificaton_NoActionBar_Transparent_Theme" />
+
+        <service
+            android:name=".Utils.IdentifyAppKilled"
+            android:stopWithTask="false" />
+        <service
+            android:name=".Utils.GoogleNavigationService"
+            android:stopWithTask="false" />
+
+        <!-- Identify Location update Permission -->
+        <receiver android:name="com.app.service.UpdateLocationService">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.app.gcm.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.cabily.cabilydriver" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.app.gcm.GCMNotificationIntentService" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <service android:name=".Utils.Locationservices" />
+        <service
+            android:name=".Helper.GEOService"
+            android:enabled="true" />
+
+        <!-- XMPP SERVICE Permission -->
+        <service
+            android:name="com.app.xmpp.XmppService"
+            android:enabled="true" />
+
+        <!-- Start the Service if applicable on boot -->
+        <receiver android:name=".Helper.ServiceStarter">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="io.card.payment.CardIOActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="io.card.payment.DataEntryActivity" />
+        <activity
+            android:name=".DropLocationSelect"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".ChatActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/PushNotificaton_NoActionBar_Transparent_Theme"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="90418bfc91e8c7209969d4fa2702a93a18bd26ac" />
+
+        <activity
+            android:name=".RegistrationLoginTypeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".RegistrationMobileVerificationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".RegistrationLoginDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".RegistrationDriverDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".RegistrationVehicleInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name="com.Hockeyapp.ActionBarActivityHockeyApp" />
+        <activity android:name=".RegistrationDocumentsActivity"></activity>
+    </application>
+
+</manifest>

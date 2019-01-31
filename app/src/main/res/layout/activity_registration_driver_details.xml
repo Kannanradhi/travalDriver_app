@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <include
+            android:id="@+id/header_registration"
+            layout="@layout/registration_header_layout" />
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+            <LinearLayout
+                android:id="@+id/driver_details_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical">
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/registration_driver_details_layout_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/driver_details_address_label"
+                    android:theme="@style/TextAppearance.App.TextInputLayout.Registration">
+
+                    <com.cabily.cabilydriver.widgets.CustomEdittext
+                        android:id="@+id/registration_driver_details_address_editText"
+                        style="@style/TextAppearance.App.Edittext.Registration"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPersonName" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/registration_driver_details_layout_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/driver_details_city_label"
+                    android:theme="@style/TextAppearance.App.TextInputLayout.Registration">
+
+                    <com.cabily.cabilydriver.widgets.CustomEdittext
+                        android:id="@+id/registration_driver_details_city_editText"
+                        style="@style/TextAppearance.App.Edittext.Registration"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPersonName" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/registration_driver_details_layout_state"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/driver_details_state_label"
+                    android:theme="@style/TextAppearance.App.TextInputLayout.Registration">
+
+                    <com.cabily.cabilydriver.widgets.CustomEdittext
+                        android:id="@+id/registration_driver_details_state_editText"
+                        style="@style/TextAppearance.App.Edittext.Registration"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPersonName" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <com.cabily.cabilydriver.widgets.CustomTextView
+                    android:id="@+id/location_spinner_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:text="@string/location_type_location_label"
+                    android:textColor="@color/black_color"
+                    android:textSize="@dimen/_18sdp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:id="@+id/country_relativeLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/location_spinner_label"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+                    <ImageView
+                        android:id="@+id/country_imageView"
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:src="@drawable/ic_registration_location"
+                        android:visibility="gone" />
+
+                    <fr.ganfra.materialspinner.MaterialSpinner
+                        android:id="@+id/country_spinner"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_marginRight="@dimen/_15sdp"
+                        android:layout_toLeftOf="@+id/country_downarrow_imageView"
+                        android:layout_toRightOf="@+id/country_imageView"
+                        android:background="@drawable/edittext_background"
+                        android:popupBackground="@color/spinner_popup_bg_color"
+                        android:textColor="@color/spinner_text_color"
+                        android:textSize="@dimen/_16sdp"
+                        app:ms_alignLabels="false"
+                        app:ms_alwaysShowFloatingLabel="false"
+                        app:ms_arrowColor="@color/spinner_arrow_color"
+                        app:ms_arrowSize="@dimen/_16sdp"
+                        app:ms_baseColor="@color/spinner_line_color"
+                        app:ms_enableFloatingLabel="false"
+                        app:ms_floatingLabelColor="@color/spinner_floatlabel_color"
+                        app:ms_floatingLabelText="@string/driver_details_country_selected_label"
+                        app:ms_highlightColor="@color/spinner_highlight_color"
+                        app:ms_hint="@string/driver_details_country_label"
+                        app:ms_hintColor="@color/spinner_hint_color"
+                        app:ms_hintTextSize="@dimen/_16sdp"
+                        app:ms_hintView="@layout/spinner_hint_item_registration"
+                        app:ms_multiline="false"
+                        app:ms_thickness="1px" />
+
+                    <ImageView
+                        android:id="@+id/country_downarrow_imageView"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/ic_registration_down_arrow"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/registration_driver_details_layout_zipcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/driver_details_zip_label"
+                    android:theme="@style/TextAppearance.App.TextInputLayout.Registration">
+
+                    <com.cabily.cabilydriver.widgets.CustomEdittext
+                        android:id="@+id/registration_driver_details_zipcode_editText"
+                        style="@style/TextAppearance.App.Edittext.Registration"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:imeOptions="actionDone"
+                        android:inputType="textNoSuggestions"
+                        android:maxLength="10" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <com.cabily.cabilydriver.widgets.CustomTextView
+                    android:id="@+id/registration_driver_details_details_next_tv"
+                    style="@style/TextAppearance.App.TextView.Registration.Next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="@string/registration_next_label" />
+
+            </LinearLayout>
+
+
+        </android.support.v4.widget.NestedScrollView>
+
+    </android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>
+
+

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "D:\\Current Project\\CabilyDriver V7\\slideDateTimePicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\88b3a5949be7817673866770645807a3\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\Current Project\\CabilyDriver V7\\slideDateTimePicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\88b3a5949be7817673866770645807a3\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Current Project\\CabilyDriver V7\\slideDateTimePicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\88b3a5949be7817673866770645807a3\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "D:\\Current Project\\CabilyDriver V7\\slideDateTimePicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\88b3a5949be7817673866770645807a3\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "D:\\Current Project\\CabilyDriver V7\\slideDateTimePicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\88b3a5949be7817673866770645807a3\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\Current Project\\CabilyDriver V7\\slideDateTimePicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\88b3a5949be7817673866770645807a3\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "D:\\Current Project\\CabilyDriver V7\\slideDateTimePicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\88b3a5949be7817673866770645807a3\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Current Project\\CabilyDriver V7\\slideDateTimePicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\88b3a5949be7817673866770645807a3\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Current Project\\CabilyDriver V7\\slideDateTimePicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\88b3a5949be7817673866770645807a3\\res\\color\\switch_thumb_material_dark.xml"
+    }
+]

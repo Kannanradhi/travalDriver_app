@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:id="@+id/layout_addimg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:background="#ffffff" >
+
+        <RelativeLayout
+            android:id="@+id/profilelayout"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="#ffffff" >
+
+            <com.cabily.cabilydriver.widgets.CustomTextView
+                android:id="@+id/howtotake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="10dp"
+                android:textColor="@color/reg_image_upload_text"
+                android:text="@string/login_details_takephoto"
+                android:textSize="15sp"
+                android:typeface="sans" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/addimg_view1"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_below="@+id/profilelayout"
+            android:layout_marginTop="5dp"
+            android:background="@color/app_color" />
+
+        <RelativeLayout
+            android:id="@+id/profilelayout_takephotofromcamera"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/addimg_view1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/curve_transparent" >
+
+            <com.cabily.cabilydriver.widgets.CustomTextView
+                android:id="@+id/exist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="10dp"
+                android:textColor="@color/reg_image_upload_text"
+                android:text="@string/login_details_camra"
+                android:textSize="15sp"
+                android:typeface="sans"
+                />
+        </RelativeLayout>
+
+        <View
+            android:visibility="invisible"
+            android:id="@+id/addimg_view2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_below="@+id/profilelayout_takephotofromcamera"
+            android:layout_marginTop="5dp"
+            android:background="#cdcdcd" />
+
+        <RelativeLayout
+            android:id="@+id/profilelayout_takephotofromgallery"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/addimg_view2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/curve_transparent" >
+
+            <com.cabily.cabilydriver.widgets.CustomTextView
+                android:id="@+id/choosegallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="10dp"
+                android:textColor="@color/reg_image_upload_text"
+                android:text="@string/login_details_existingcamera"
+                android:textSize="15sp"
+                android:typeface="sans" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/addimg_view3"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_below="@+id/profilelayout_takephotofromgallery"
+            android:layout_marginTop="5dp"
+            android:background="#00000000" />
+    </RelativeLayout>
+
+</RelativeLayout>

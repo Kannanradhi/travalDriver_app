@@ -1,0 +1,180 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/app_color</item>
+        <item name="colorPrimaryDark">@color/app_color_transperent1</item>
+        <item name="colorAccent">@color/app_color</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="colorControlNormal">@color/white</item>
+
+    </style>
+
+    <!--<style name="CircularBarPagerStyle">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="progress_arc_max">100</item>
+        <item name="arc_progress">0</item>
+
+
+        <item name="progress_arc_clockwise_outline_width">0.75dp</item>
+        <item name="progress_arc_counter_clockwise_outline_width">0.75dp</item>
+        <item name="progress_arc_clockwise_width">8dp</item>
+        <item name="progress_arc_counter_clockwise_width">8dp</item>
+
+        <item name="progress_start_line_enabled">true</item>
+        <item name="progress_pager_on_click_enabled">true</item>
+        <item name="progress_pager_fill_circle_color">#00000000</item>
+    </style>-->
+
+    <style name="SmallProgressBarHorizontal" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/greenprogress</item>
+        <item name="android:minHeight">4dip</item>
+        <item name="android:maxHeight">4dip</item>
+    </style>
+
+    <style name="CustomActionBarTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="DialogAnimation2" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowEnterAnimation">@anim/slideup</item>
+        <item name="android:windowExitAnimation">@anim/pull_in_left</item>
+    </style>
+    <!-- ActionBar styles -->
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@android:color/holo_blue_bright</item>
+    </style>
+
+
+    <style name="Animations_filter" parent="Theme.AppCompat.Light">
+        <item name="@android:windowEnterAnimation">@anim/pull_in_left</item>
+        <item name="@android:windowExitAnimation">@anim/push_out_right</item>
+    </style>
+
+    <style name="NoActionBar_Theme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="colorPrimary">#6ad6ef</item>
+        <item name="colorPrimaryDark">#6ad6ef</item>
+    </style>
+
+
+    <style name="PushNotificaton_NoActionBar_Transparent_Theme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="android:windowBackground">@color/pushnotification_custom_theme_color</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+
+    <style name="StarRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/star_ratingbar_full</item>
+        <item name="android:minHeight">50dp</item>
+        <item name="android:maxHeight">50dp</item>
+    </style>
+
+    <style name="StarRatingBarTwo" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/star_ratingbar_dashboard</item>
+        <item name="android:minHeight">20dp</item>
+        <item name="android:maxHeight">20dp</item>
+    </style>
+
+    <style name="chat_text_message_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="chat_timings">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="DialogTheme">
+        <item name="android:windowEnterAnimation">@anim/slideup</item>
+        <item name="android:windowExitAnimation">@anim/slidedown</item>
+    </style>
+
+    <style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/black_color</item>
+        <item name="colorControlNormal">@color/app_color_transperent1</item>
+        <item name="colorControlActivated">@color/app_color</item>
+        <item name="colorControlHighlight">@color/app_color</item>
+    </style>
+
+
+    <style name="TextAppearance.App.Edittext.Registration" parent="@android:style/Widget.EditText">
+        <item name="android:paddingBottom">@dimen/_10sdp</item>
+        <item name="android:paddingTop">@dimen/_15sdp</item>
+
+    </style>
+
+    <style name="TextAppearance.App.TextInputLayout.Registration" parent="@android:style/TextAppearance">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/registration_hint</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="colorAccent">@color/registration_hint</item>
+        <item name="colorControlNormal">@color/registration_hint</item>
+        <item name="colorControlActivated">@color/app_color</item>
+        <item name="android:paddingLeft">@dimen/_5sdp</item>
+        <item name="android:paddingRight">@dimen/_5sdp</item>
+        <item name="android:layout_marginLeft">@dimen/_5sdp</item>
+        <item name="android:layout_marginRight">@dimen/_5sdp</item>
+
+
+    </style>
+
+    <style name="TextAppearance.App.TextView.Registration.Next" parent="@android:style/TextAppearance">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/registration_hint</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/app_color</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:paddingTop">@dimen/_5sdp</item>
+        <item name="android:paddingBottom">@dimen/_5sdp</item>
+        <item name="android:paddingRight">@dimen/_23sdp</item>
+        <item name="android:paddingLeft">@dimen/_23sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_20sdp</item>
+        <item name="android:layout_marginTop">@dimen/_30sdp</item>
+
+
+    </style>
+
+    <style name="Theme.switch" parent="Theme.AppCompat.Light">
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/app_color</item>
+        <item name="colorButtonNormal">@color/app_color</item>
+        <item name="colorControlActivated">@color/app_color</item>
+
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/app_color</item>
+
+        <!-- colorAccent is used as the default value for colorControlActivated,
+             which is used to tint widgets -->
+        <item name="colorAccent">@color/app_color</item>
+
+        <!-- You can also set colorControlNormal, colorControlActivated
+             colorControlHighlight, and colorSwitchThumbNormal. -->
+
+    </style>
+
+    <style name="exp_toolbar_title" parent="@android:style/TextAppearance.Holo.Medium">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <!--<item name="android:textAlignment">center</item>-->
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="coll_toolbar_title" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

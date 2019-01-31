@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cabily.cabilydriver.widgets.CustomTextView
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="casdsd"
+    android:textSize="@dimen/_16sdp"
+    android:paddingRight="@dimen/_5sdp"
+    android:textColor="@color/black_color">
+
+
+</com.cabily.cabilydriver.widgets.CustomTextView>

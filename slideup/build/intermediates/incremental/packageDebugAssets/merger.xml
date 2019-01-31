@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\Current Project\CabilyDriver V7\slideup\src\main\assets"/><source path="D:\Current Project\CabilyDriver V7\slideup\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\Current Project\CabilyDriver V7\slideup\src\debug\assets"/></dataSet></merger>

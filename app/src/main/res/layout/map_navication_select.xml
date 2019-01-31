@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#80000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/aboutus_layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/app_color">
+
+     <RelativeLayout
+            android:id="@+id/navigation_header_cancel_layout"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true">
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="26dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="18dp"
+                android:background="@null"
+                android:visibility="visible"
+                android:src="@drawable/cancel_navigation_ic" />
+        </RelativeLayout>
+
+        <com.cabily.cabilydriver.widgets.CustomTextView
+            android:id="@+id/aboutus_header_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:text="@string/map_nav_select_title"
+            android:textColor="#ffffff"
+            android:textAllCaps="true"
+            android:singleLine="true"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+
+
+  <RelativeLayout
+    android:id="@+id/map_nav_content_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/aboutus_layout_header"
+    android:layout_centerHorizontal="true">
+
+
+      <RelativeLayout
+          android:id="@+id/google_map_navication"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+      <ImageView
+          android:id="@+id/google_map_ic"
+          android:layout_width="45dp"
+          android:layout_height="45dp"
+          android:layout_marginLeft="15dp"
+          android:layout_marginTop="5dp"
+          android:layout_marginBottom="5dp"
+          android:src="@drawable/google_new_nav"/>
+
+      <TextView
+          android:id="@+id/google_map_navication_txt"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:layout_centerVertical="true"
+          android:text="@string/map_nav_select_google"
+          android:textColor="#4e4e4e"
+          android:textSize="14sp"/>
+
+
+
+      </RelativeLayout>
+
+      <View
+          android:id="@+id/nav_separater"
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:layout_below="@+id/google_map_navication"
+          android:background="#4e4e4e"/>
+
+
+
+      <RelativeLayout
+          android:id="@+id/waze_map_navication"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/nav_separater"
+          android:paddingBottom="5dp">
+
+
+          <ImageView
+              android:id="@+id/waze_map_ic"
+              android:layout_width="45dp"
+              android:layout_height="45dp"
+              android:layout_marginLeft="15dp"
+              android:layout_marginTop="10dp"
+              android:layout_marginBottom="5dp"
+              android:src="@drawable/waze_app_icon"/>
+
+
+
+          <TextView
+              android:id="@+id/waze_map_navication_txt"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerHorizontal="true"
+              android:layout_centerVertical="true"
+              android:text="@string/map_nav_select_waze"
+              android:paddingRight="10dp"
+              android:textColor="#4e4e4e"
+              android:textSize="14sp"/>
+
+
+
+
+      </RelativeLayout>
+
+
+
+  </RelativeLayout>
+
+</LinearLayout>
+
+</RelativeLayout>

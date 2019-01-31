@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Current Project\\CabilyDriver V7\\slideup\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-pa\\values-pa.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.2.aar\\ccc1bf37fd79bbf42e3954da829c0546\\res\\values-pa\\values-pa.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Current Project\\CabilyDriver V7\\slideup\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-pa\\values-pa.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\user46\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.2.aar\\ccc1bf37fd79bbf42e3954da829c0546\\res\\values-pa\\values-pa.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

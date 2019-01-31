@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cabily.cabilydriver.widgets.CustomTextView
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textSize="@dimen/_16sdp"
+    android:paddingLeft="@dimen/_5sdp"
+    android:paddingRight="@dimen/_5sdp"
+    android:paddingBottom="@dimen/_8sdp"
+    android:paddingTop="@dimen/_8sdp"
+    style="?android:attr/spinnerDropDownItemStyle"
+    android:ellipsize="marquee"
+    android:textColor="@color/black_color">
+
+
+</com.cabily.cabilydriver.widgets.CustomTextView>
